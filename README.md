@@ -8,4 +8,4 @@ Head of retail credit risk (portfolio risk, unit economics and P&L of consumer l
 - [su2-trimmed-shape-optimization](https://github.com/nikita-ageev/su2-trimmed-shape-optimization) — trimmed lift-to-drag shape optimisation of a supersonic body with the SU2 discrete adjoint (FFD, SQP), K 15.9 → 21.5.
 - Contributions to [SU2](https://github.com/su2code/SU2): fixed-CL station outputs and documentation, path quoting in `SU2_RUN`, and an issue on dCL derivatives in `flow.meta`.
 
-**Elsewhere:** [ageev.dev](https://ageev.dev) · [LinkedIn](https://linkedin.com/in/nikita-ageev) · 40+ papers on aerodynamic design and adjoint shape optimisation (2009–2021).
+**Elsewhere:** [ageev.dev](https://ageev.dev) · [LinkedIn](https://linkedin.com/in/nikita-ageev) · [Kaggle](https://www.kaggle.com/truenikita) · 40+ papers on aerodynamic design and adjoint shape optimisation (2009–2021).
