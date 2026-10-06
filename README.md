@@ -16,9 +16,9 @@ PhD in aircraft aerodynamics (TsAGI), MSc in applied mathematics and physics (MI
 ### Kaggle — [truenikita](https://www.kaggle.com/truenikita)
 
 Datasets:
-- [Russian Banks: Retail Credit from CBR Disclosures](https://www.kaggle.com/datasets/truenikita/russian-banks-retail-credit-cbr) — bank-level balance sheet, P&L and prudential ratios from Bank of Russia forms 0409101/102/135
-- [Russian Retail Lending: Bank of Russia Statistics](https://www.kaggle.com/datasets/truenikita/russian-retail-lending-market-cbr) — market-level retail lending statistics
-- [Russian Bank Reviews: Banki.ru Rating 2019–2026](https://www.kaggle.com/datasets/truenikita/russian-bank-reviews-banki-ru-rating)
+- [Russian Banks: Retail Credit from CBR Disclosures](https://www.kaggle.com/datasets/truenikita/russian-banks-retail-credit-cbr) — monthly retail loans, provisions, overdue, P&L and ratios of 13 Russian banks (Bank of Russia forms 0409101/102/135)
+- [Russian Retail Lending: Bank of Russia Statistics](https://www.kaggle.com/datasets/truenikita/russian-retail-lending-market-cbr) — monthly household loans, overdue debt, mortgages and rates by region, 2019–2026
+- [Russian Bank Reviews: Banki.ru Rating 2019–2026](https://www.kaggle.com/datasets/truenikita/russian-bank-reviews-banki-ru-rating) — bank × product × year review aggregates joined with balances and the key rate
 
 Notebooks:
 - [Russian Retail Credit 2019–2026 and the Key Rate](https://www.kaggle.com/code/truenikita/russian-retail-credit-2019-2026-and-the-key-rate)
