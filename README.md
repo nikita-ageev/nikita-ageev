@@ -13,6 +13,11 @@ PhD in aircraft aerodynamics (TsAGI), MSc in applied mathematics and physics (MI
   [#2935](https://github.com/su2code/SU2/pull/2935) quoting the executable path in SU2_RUN ·
   [#2952](https://github.com/su2code/SU2/pull/2952) fixed-CL finite-difference dCX/dCL written to `flow.meta`.
 
+### Writing
+
+- [What bank reviews say about a bank's money](https://habr.com/ru/articles/1091846/) (Habr, Russian, 8 Oct 2026) — matching Banki.ru review volumes to disclosed loan books and P&L across Russian retail banks.
+- *Когда квота выбрана: как макропруденциальный лимит меняет правило выдачи* — forthcoming, «Риск-менеджмент в кредитной организации», November 2026.
+
 ### Kaggle — [truenikita](https://www.kaggle.com/truenikita)
 
 Datasets:
