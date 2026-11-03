@@ -1,32 +1,28 @@
-## Nikita Ageev
+# Nikita Ageev
 
-Retail credit risk lead at a Russian fintech bank: portfolio risk, credit limits, unit economics of consumer lending. Previously Yandex and Sber.
+Retail credit risk lead at a Russian fintech bank: portfolio risk, credit limits and the unit economics of consumer lending. Previously Yandex and Sber.
+
 PhD; MSc in applied mathematics and physics (MIPT); MSc in Finance (New Economic School).
 
-### What I build
+## Selected work
 
-- **[Credit Radar](https://github.com/nikita-ageev/credit-radar)** — an open daily monitor of the Russian retail credit market: lending terms of 12 banks, credit bureau releases, Bank of Russia data and news. Built as an LLM workflow: the route is fixed in code, the model works behind code gates and a judge, offline evals run in CI. Issues: [ageev.dev/credit-radar](https://ageev.dev/credit-radar/), Telegram [@rcradar](https://t.me/rcradar).
-- **LLM agents for risk analytics** — monitoring and analysis pipelines with explicit quality gates and evals; Credit Radar is the public example.
+| Project | What to inspect | Evidence |
+|---|---|---|
+| **Credit Radar** | A source-backed monitoring workflow with code-owned quality gates and regression checks | [Code](https://github.com/nikita-ageev/credit-radar) · [CI](https://github.com/nikita-ageev/credit-radar/actions) · [Case study](cases/credit-radar.md) |
+| **Credit decision economics** | How predictive ranking, calibration and decision policy interact under explicit assumptions | [Cutoff economics](https://www.kaggle.com/code/truenikita/home-credit-from-auc-to-money-cutoff-economics) · [Case study](cases/credit-decision-economics.md) |
+| **Model monitoring** | Experiments connecting distribution shift, probability quality and decision thresholds | [PSI and drift](https://www.kaggle.com/code/truenikita/home-credit-psi-drift-and-re-setting-the-cutoff) · [PD calibration](https://www.kaggle.com/code/truenikita/home-credit-pd-calibration-auc-is-not-enough) |
 
-### Writing
+The notebooks use public data and illustrative economic assumptions. Their examples are not employer results or evidence of realised production profit. Source coverage and limitations are documented with the projects.
 
-- [What bank reviews say about a bank's money](https://habr.com/ru/articles/1091846/) (Habr, Russian, 8 Oct 2026) — matching Banki.ru review volumes to disclosed loan books and P&L across Russian retail banks.
-- *Когда квота выбрана: как макропруденциальный лимит меняет правило выдачи* — forthcoming, «Риск-менеджмент в кредитной организации», November 2026.
+## Open data on Kaggle
 
-### Kaggle — [truenikita](https://www.kaggle.com/truenikita)
+- [Russian Banks: Retail Credit from CBR Disclosures](https://www.kaggle.com/datasets/truenikita/russian-banks-retail-credit-cbr) — disclosed lending, provisions, overdue debt and financial indicators.
+- [Russian Retail Lending: Bank of Russia Statistics](https://www.kaggle.com/datasets/truenikita/russian-retail-lending-market-cbr) — household lending, overdue debt, mortgages and regional statistics.
+- [Russian Bank Reviews: Banki.ru Rating 2019–2026](https://www.kaggle.com/datasets/truenikita/russian-bank-reviews-banki-ru-rating) — aggregate review statistics and their relationship with disclosed banking indicators.
 
-Datasets:
-- [Russian Banks: Retail Credit from CBR Disclosures](https://www.kaggle.com/datasets/truenikita/russian-banks-retail-credit-cbr) — monthly retail loans, provisions, overdue, P&L and ratios of 13 Russian banks (Bank of Russia forms 0409101/102/135)
-- [Russian Retail Lending: Bank of Russia Statistics](https://www.kaggle.com/datasets/truenikita/russian-retail-lending-market-cbr) — monthly household loans, overdue debt, mortgages and rates by region, 2019–2026
-- [Russian Bank Reviews: Banki.ru Rating 2019–2026](https://www.kaggle.com/datasets/truenikita/russian-bank-reviews-banki-ru-rating) — bank × product × year review aggregates joined with balances and the key rate
+Related notebooks: [Retail credit and the key rate](https://www.kaggle.com/code/truenikita/russian-retail-credit-2019-2026-and-the-key-rate) · [Overdue retail debt by region](https://www.kaggle.com/code/truenikita/overdue-retail-debt-vs-key-rate-85-regions).
 
-Notebooks:
-- [Russian Retail Credit 2019–2026 and the Key Rate](https://www.kaggle.com/code/truenikita/russian-retail-credit-2019-2026-and-the-key-rate)
-- [Overdue Retail Debt vs Key Rate: 85 Regions](https://www.kaggle.com/code/truenikita/overdue-retail-debt-vs-key-rate-85-regions)
-- [Home Credit: From AUC to Money — Cutoff Economics](https://www.kaggle.com/code/truenikita/home-credit-from-auc-to-money-cutoff-economics)
-- [Home Credit: PSI, Drift and Re-setting the Cutoff](https://www.kaggle.com/code/truenikita/home-credit-psi-drift-and-re-setting-the-cutoff)
-
-### Background
+## Background
 
 12 years in research before credit risk (40+ papers, 2009–2021), taught general physics at MIPT.
 
